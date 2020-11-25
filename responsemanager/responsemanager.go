@@ -22,7 +22,7 @@ import (
 var log = logging.Logger("graphsync")
 
 const (
-	maxInProcessRequests = 6
+	maxInProcessRequests = 50
 	thawSpeed            = time.Millisecond * 100
 )
 
